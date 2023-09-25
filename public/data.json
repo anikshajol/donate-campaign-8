@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "picture": "https://i.ibb.co/tq7P3mz/Health.png",
+    "title": "Clean Water for Children",
+    "category": "Health",
+    "category_bg": "#0052ff33",
+    "card_bg": "rgba(0, 82, 255, 0.15)",
+    "text_button_bg": "#0052FF",
+    "description": "Provide clean and safe drinking water to children in need.",
+    "price": "$290"
+  },
+  {
+    "id": 2,
+    "picture": "https://i.ibb.co/BPvxCQg/Education.png",
+    "title": "Good Education",
+    "category": "Education",
+    "category_bg": "#ff444a33",
+    "card_bg": "#ff444a26",
+    "text_button_bg": "#FF444A",
+    "description": "Support quality education initiatives for underserved communities.",
+    "price": "$290"
+  },
+  {
+    "id": 3,
+    "picture": "https://i.ibb.co/7JZgqrk/Clothing.png",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "category_bg": "#79c23f33",
+    "card_bg": "#79c23f26",
+    "text_button_bg": "#79C23F",
+    "description": "Collect and distribute gently used clothing to those in need.",
+    "price": "$290"
+  },
+  {
+    "id": 4,
+    "picture": "https://i.ibb.co/0Ybx52p/Food.png",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "category_bg": "#f8714733",
+    "card_bg": "#f8714726",
+    "text_button_bg": "#F87147",
+    "description": "Support initiatives to provide nutritious food to communities.",
+    "price": "$290"
+  },
+  {
+    "id": 5,
+    "picture": "https://i.ibb.co/0Ybx52p/Food.png",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "category_bg": "#f8714733",
+    "card_bg": "#f8714726",
+    "text_button_bg": "#F87147",
+    "description": "Support initiatives to provide nutritious food to communities.",
+    "price": "$290"
+  },
+  {
+    "id": 6,
+    "picture": "https://i.ibb.co/7JZgqrk/Clothing.png",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "category_bg": "#79c23f33",
+    "card_bg": "#79c23f26",
+    "text_button_bg": "#79C23F",
+    "description": "Collect and distribute gently used clothing to those in need.",
+    "price": "$290"
+  },
+  {
+    "id": 7,
+    "picture": "https://i.ibb.co/BPvxCQg/Education.png",
+    "title": "Good Education",
+    "category": "Education",
+    "category_bg": "#ff444a33",
+    "card_bg": "#ff444a26",
+    "text_button_bg": "#FF444A",
+    "description": "Support quality education initiatives for underserved communities.",
+    "price": "$290"
+  },
+  {
+    "id": 8,
+    "picture": "https://i.ibb.co/tq7P3mz/Health.png",
+    "title": "Clean Water for Children",
+    "category": "Health",
+    "category_bg": "#0052ff33",
+    "card_bg": "rgba(0, 82, 255, 0.15)",
+    "text_button_bg": "#0052FF",
+    "description": "Provide clean and safe drinking water to children in need.",
+    "price": "$290"
+  },
+  {
+    "id": 9,
+    "picture": "https://i.ibb.co/tq7P3mz/Health.png",
+    "title": "Clean Water for Children",
+    "category": "Health",
+    "category_bg": "#0052ff33",
+    "card_bg": "rgba(0, 82, 255, 0.15)",
+    "text_button_bg": "#0052FF",
+    "description": "Provide clean and safe drinking water to children in need.",
+    "price": "$290"
+  },
+  {
+    "id": 10,
+    "picture": "https://i.ibb.co/BPvxCQg/Education.png",
+    "title": "Good Education",
+    "category": "Education",
+    "category_bg": "#ff444a33",
+    "card_bg": "#ff444a26",
+    "text_button_bg": "#FF444A",
+    "description": "Support quality education initiatives for underserved communities.",
+    "price": "$290"
+  },
+  {
+    "id": 11,
+    "picture": "https://i.ibb.co/7JZgqrk/Clothing.png",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "category_bg": "#79c23f33",
+    "card_bg": "#79c23f26",
+    "text_button_bg": "#79C23F",
+    "description": "Collect and distribute gently used clothing to those in need.",
+    "price": "$290"
+  },
+  {
+    "id": 12,
+    "picture": "https://i.ibb.co/0Ybx52p/Food.png",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "category_bg": "#f8714733",
+    "card_bg": "#f8714726",
+    "text_button_bg": "#F87147",
+    "description": "Support initiatives to provide nutritious food to communities.",
+    "price": "$290"
+  }
+]

@@ -1,4 +1,5 @@
 import bannerImage from "../../assets/banner.png";
+import "./Banner.css";
 
 const Banner = () => {
   const styles = {
@@ -18,8 +19,21 @@ const Banner = () => {
 
   return (
     <div style={styles.banner}>
-      <div style={styles.content}>
-        <h2>This is banner</h2>
+      <div
+        style={styles.content}
+        className="flex flex-col items-center justify-center "
+      >
+        <h2 className="banner-title">I Grow By Helping People In Need</h2>
+        <div className=" search-input mt-10 flex justify-between items-center outline-none">
+          <input
+            type="search"
+            name="search"
+            className=" outline-none p-3"
+            id="search"
+            placeholder="Search Here..."
+          />
+          <input className="search-btn " type="button" value="Search" />
+        </div>
       </div>
     </div>
   );

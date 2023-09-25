@@ -4,7 +4,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-around items-center">
+    <nav className="flex max-w-6xl mx-auto justify-between mb-5 items-center">
       <img src={logo} alt="" />
       <ul className="flex gap-10">
         <NavLink to={"/home"}>Home</NavLink>
