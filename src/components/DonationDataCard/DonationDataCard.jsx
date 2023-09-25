@@ -22,14 +22,17 @@ const DonationDataCard = ({ data }) => {
         <figure>
           <img src={picture} alt="" />
         </figure>
-        <div className="mt-3 ml-4 ">
+        <div className="mt-3 ml-4 text-center md:text-left ">
           <button
             className="rounded px-2 py-1"
             style={{ color: text_button_bg, backgroundColor: category_bg }}
           >
             {category}
           </button>
-          <h2 style={{ color: text_button_bg }} className="title pb-4">
+          <h2
+            style={{ color: text_button_bg }}
+            className="title text-center md:text-left pb-4"
+          >
             {title}
           </h2>
         </div>

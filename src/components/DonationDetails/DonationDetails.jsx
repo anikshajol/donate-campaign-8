@@ -3,6 +3,7 @@ import "./DonationDetails.css";
 import { ToastContainer, toast } from "react-toastify";
 
 import "react-toastify/dist/ReactToastify.css";
+import { saveDonation } from "../../utility/localstorage";
 
 const DonationDetails = () => {
   const donationDetails = useLoaderData();
@@ -11,6 +12,8 @@ const DonationDetails = () => {
   const donation = donationDetails.find((donate) => donate.id === parseInt(id));
 
   const handleDonateAdd = () => {
+    saveDonation(parseInt(id));
+
     toast("Congratulation! Your donation has been successfully received ");
   };
 
@@ -35,7 +38,7 @@ const DonationDetails = () => {
               >
                 Donate {donation.price}
               </button>
-              <ToastContainer />
+              <ToastContainer position="top-center" />
             </div>
           </div>
 
