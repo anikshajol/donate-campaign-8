@@ -7,7 +7,7 @@ import { useState } from "react";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="flex max-w-6xl mx-auto justify-between mb-5 items-center">
+    <nav className="flex  md:max-w-6xl md:mx-auto px-9 justify-between mb-5 items-center">
       <div onClick={() => setOpen(!open)} className="text-4xl md:hidden">
         {open ? (
           <AiOutlineClose></AiOutlineClose>
@@ -15,9 +15,9 @@ const Navbar = () => {
           <AiOutlineMenu></AiOutlineMenu>
         )}
       </div>
-      <img src={logo} alt="" />
+      <img src={logo} className="" alt="" />
       <ul
-        className={` flex flex-col md:flex md:justify-end absolute md:static duration-1000  ${
+        className={` flex flex-col md:flex-row md:justify-end absolute md:static duration-1000  ${
           open ? "top-12 mb-10" : "-top-80"
         } gap-3 md:gap-6 font-semibold p-2 rounded-md`}
       >

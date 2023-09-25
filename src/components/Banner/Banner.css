@@ -7,23 +7,21 @@
   line-height: normal;
 }
 
-.search-input {
+/* .search-input {
   border-radius: 8px;
   border: 1px solid #dedede;
   background: #fff;
   width: 470px;
   height: 50px;
-}
+} */
 
 .search-btn {
   border-radius: 0px 8px 8px 0px;
   background: #ff444a;
   padding: 15px 30px;
   height: 50px;
-
   color: #fff;
   text-align: center;
-
   font-size: 16px;
   font-style: normal;
   font-weight: 600;

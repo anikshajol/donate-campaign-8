@@ -18,8 +18,8 @@ const DonationDetails = () => {
   };
 
   return (
-    <div className="mt-20">
-      <div className=" card w-full bg-base-100 shadow-xl">
+    <div className=" mt-20">
+      <div className=" card w-full bg-base-100 ">
         <div className="relative">
           <img
             className="object-cover w-5/6 mx-auto "
@@ -36,7 +36,7 @@ const DonationDetails = () => {
                   backgroundColor: donation.text_button_bg,
                 }}
               >
-                Donate {donation.price}
+                Donate ${donation.price}
               </button>
               <ToastContainer position="top-center" />
             </div>

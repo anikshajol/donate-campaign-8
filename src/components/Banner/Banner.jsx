@@ -18,17 +18,17 @@ const Banner = () => {
   };
 
   return (
-    <div style={styles.banner}>
+    <div style={styles.banner} className="">
       <div
         style={styles.content}
-        className="flex flex-col items-center justify-center "
+        className="flex flex-col items-center justify-center px-2 "
       >
         <h2 className="banner-title">I Grow By Helping People In Need</h2>
-        <div className=" search-input mt-10 flex justify-between items-center outline-none">
+        <div className=" w-80 md:w-96 rounded-lg border border-[#dedede] mt-10 flex justify-between items-center outline-none">
           <input
             type="search"
             name="search"
-            className=" outline-none p-3"
+            className=" outline-none  p-3"
             id="search"
             placeholder="Search Here..."
           />
