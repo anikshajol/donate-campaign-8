@@ -1,0 +1,26 @@
+.details_title {
+  color: #0b0b0b;
+
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.btn-text {
+  color: #fff;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.description {
+  color: rgba(11, 11, 11, 0.7);
+  text-align: justify;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}

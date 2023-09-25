@@ -1,4 +1,5 @@
 import { useLoaderData, useParams } from "react-router-dom";
+import "./DonationDetails.css";
 
 const DonationDetails = () => {
   const donationDetails = useLoaderData();
@@ -7,19 +8,31 @@ const DonationDetails = () => {
   const donation = donationDetails.find((donate) => donate.id === parseInt(id));
 
   return (
-    <div>
+    <div className="mt-20">
       <div className=" card w-full bg-base-100 shadow-xl">
-        <img
-          className="object-cover w-5/6 mx-auto"
-          src={donation.picture}
-          alt=""
-        />
+        <div className="relative">
+          <img
+            className="object-cover w-5/6 mx-auto "
+            src={donation.picture}
+            alt=""
+          />
+          <div className="w-5/6 mx-auto relative -top-32 bg-[#0b0b0b80] h-32">
+            <div className=" pt-10 pl-9 items-center">
+              <button
+                className="rounded px-2 py-1 btn-text"
+                style={{
+                  color: "white",
+                  backgroundColor: donation.text_button_bg,
+                }}
+              >
+                Donate {donation.price}
+              </button>
+            </div>
+          </div>
 
-        <div className="card-body">
-          <h2 className="card-title">{donation.category}</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
-          <div className="card-actions justify-end">
-            <button className="btn btn-primary">Buy Now</button>
+          <div className=" relative -top-24 w-5/6 mx-auto">
+            <h2 className="details_title">{donation.category}</h2>
+            <p className="description">{donation.description}</p>
           </div>
         </div>
       </div>

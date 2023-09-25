@@ -5,9 +5,9 @@
     "title": "Clean Water for Children",
     "category": "Health",
     "category_bg": "#0052ff33",
-    "card_bg": "rgba(0, 82, 255, 0.15)",
+    "card_bg": "#0052ff26",
     "text_button_bg": "#0052FF",
-    "description": "Provide clean and safe drinking water to children in need.",
+    "description": "Help provide clean and safe drinking water to children in need. Your contribution will make a significant impact on improving their health and well-being. Access to clean water is a fundamental human right, and your support can ensure that every child has access to this basic necessity. Join us in our mission to make a difference in the lives of these young ones.",
     "price": "$290"
   },
   {
@@ -18,8 +18,8 @@
     "category_bg": "#ff444a33",
     "card_bg": "#ff444a26",
     "text_button_bg": "#FF444A",
-    "description": "Support quality education initiatives for underserved communities.",
-    "price": "$290"
+    "description": "Support quality education initiatives for underserved communities. Education is the key to breaking the cycle of poverty and creating a brighter future. Your contribution will help provide access to books, teachers, and educational resources for children who otherwise might not have these opportunities. Join us in empowering the next generation through education.",
+    "price": "$350"
   },
   {
     "id": 3,
@@ -29,8 +29,8 @@
     "category_bg": "#79c23f33",
     "card_bg": "#79c23f26",
     "text_button_bg": "#79C23F",
-    "description": "Collect and distribute gently used clothing to those in need.",
-    "price": "$290"
+    "description": "Join our efforts to collect and distribute gently used clothing to those in need. Your donations can provide warmth and comfort to individuals and families who are struggling. By recycling clothing and giving it a second life, we can reduce waste and help those less fortunate. Be a part of our clothing drive and make a positive impact on your community.",
+    "price": "$420"
   },
   {
     "id": 4,
@@ -40,8 +40,8 @@
     "category_bg": "#f8714733",
     "card_bg": "#f8714726",
     "text_button_bg": "#F87147",
-    "description": "Support initiatives to provide nutritious food to communities.",
-    "price": "$290"
+    "description": "Support initiatives to provide nutritious food to communities in need. Access to healthy food is essential for a strong and vibrant community. Your contribution will help us fund food programs that ensure everyone has enough to eat. Together, we can make sure that no one goes hungry and that everyone has access to nutritious meals.",
+    "price": "$490"
   },
   {
     "id": 5,
@@ -51,8 +51,8 @@
     "category_bg": "#f8714733",
     "card_bg": "#f8714726",
     "text_button_bg": "#F87147",
-    "description": "Support initiatives to provide nutritious food to communities.",
-    "price": "$290"
+    "description": "Support initiatives to provide nutritious food to communities in need. Access to healthy food is essential for a strong and vibrant community. Your contribution will help us fund food programs that ensure everyone has enough to eat. Together, we can make sure that no one goes hungry and that everyone has access to nutritious meals.",
+    "price": "$490"
   },
   {
     "id": 6,
@@ -62,8 +62,8 @@
     "category_bg": "#79c23f33",
     "card_bg": "#79c23f26",
     "text_button_bg": "#79C23F",
-    "description": "Collect and distribute gently used clothing to those in need.",
-    "price": "$290"
+    "description": "Join our efforts to collect and distribute gently used clothing to those in need. Your donations can provide warmth and comfort to individuals and families who are struggling. By recycling clothing and giving it a second life, we can reduce waste and help those less fortunate. Be a part of our clothing drive and make a positive impact on your community.",
+    "price": "$420"
   },
   {
     "id": 7,
@@ -73,8 +73,8 @@
     "category_bg": "#ff444a33",
     "card_bg": "#ff444a26",
     "text_button_bg": "#FF444A",
-    "description": "Support quality education initiatives for underserved communities.",
-    "price": "$290"
+    "description": "Support quality education initiatives for underserved communities. Education is the key to breaking the cycle of poverty and creating a brighter future. Your contribution will help provide access to books, teachers, and educational resources for children who otherwise might not have these opportunities. Join us in empowering the next generation through education.",
+    "price": "$350"
   },
   {
     "id": 8,
@@ -82,9 +82,9 @@
     "title": "Clean Water for Children",
     "category": "Health",
     "category_bg": "#0052ff33",
-    "card_bg": "rgba(0, 82, 255, 0.15)",
+    "card_bg": "#0052ff26",
     "text_button_bg": "#0052FF",
-    "description": "Provide clean and safe drinking water to children in need.",
+    "description": "Help provide clean and safe drinking water to children in need. Your contribution will make a significant impact on improving their health and well-being. Access to clean water is a fundamental human right, and your support can ensure that every child has access to this basic necessity. Join us in our mission to make a difference in the lives of these young ones.",
     "price": "$290"
   },
   {
@@ -93,9 +93,9 @@
     "title": "Clean Water for Children",
     "category": "Health",
     "category_bg": "#0052ff33",
-    "card_bg": "rgba(0, 82, 255, 0.15)",
+    "card_bg": "#0052ff26",
     "text_button_bg": "#0052FF",
-    "description": "Provide clean and safe drinking water to children in need.",
+    "description": "Help provide clean and safe drinking water to children in need. Your contribution will make a significant impact on improving their health and well-being. Access to clean water is a fundamental human right, and your support can ensure that every child has access to this basic necessity. Join us in our mission to make a difference in the lives of these young ones.",
     "price": "$290"
   },
   {
@@ -106,8 +106,8 @@
     "category_bg": "#ff444a33",
     "card_bg": "#ff444a26",
     "text_button_bg": "#FF444A",
-    "description": "Support quality education initiatives for underserved communities.",
-    "price": "$290"
+    "description": "Support quality education initiatives for underserved communities. Education is the key to breaking the cycle of poverty and creating a brighter future. Your contribution will help provide access to books, teachers, and educational resources for children who otherwise might not have these opportunities. Join us in empowering the next generation through education.",
+    "price": "$350"
   },
   {
     "id": 11,
@@ -117,8 +117,8 @@
     "category_bg": "#79c23f33",
     "card_bg": "#79c23f26",
     "text_button_bg": "#79C23F",
-    "description": "Collect and distribute gently used clothing to those in need.",
-    "price": "$290"
+    "description": "Join our efforts to collect and distribute gently used clothing to those in need. Your donations can provide warmth and comfort to individuals and families who are struggling. By recycling clothing and giving it a second life, we can reduce waste and help those less fortunate. Be a part of our clothing drive and make a positive impact on your community.",
+    "price": "$420"
   },
   {
     "id": 12,
@@ -128,7 +128,7 @@
     "category_bg": "#f8714733",
     "card_bg": "#f8714726",
     "text_button_bg": "#F87147",
-    "description": "Support initiatives to provide nutritious food to communities.",
-    "price": "$290"
+    "description": "Support initiatives to provide nutritious food to communities in need. Access to healthy food is essential for a strong and vibrant community. Your contribution will help us fund food programs that ensure everyone has enough to eat. Together, we can make sure that no one goes hungry and that everyone has access to nutritious meals.",
+    "price": "$490"
   }
 ]
