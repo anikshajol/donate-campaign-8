@@ -1,13 +1,23 @@
 import PropTypes from "prop-types";
+import "./DonationDataCard.css";
+import { useNavigate, Link, useParams } from "react-router-dom";
 
 const DonationDataCard = ({ data }) => {
-  const { picture, title, category, category_bg, card_bg, text_button_bg } =
+  const { id, picture, title, category, category_bg, card_bg, text_button_bg } =
     data;
+
+  const navigate = useNavigate();
+
+  const handleClickToDonate = () => {
+    navigate(`/donation-details/${id}`);
+  };
+
   return (
-    <div>
+    <>
       <div
+        onClick={handleClickToDonate}
         style={{ backgroundColor: card_bg }}
-        className="card card-compact  shadow-xl"
+        className="card card-compact cursor-pointer  shadow-xl"
       >
         <figure>
           <img src={picture} alt="" />
@@ -19,12 +29,12 @@ const DonationDataCard = ({ data }) => {
           >
             {category}
           </button>
-          <h2 style={{ color: text_button_bg }} className="card-title pb-4">
+          <h2 style={{ color: text_button_bg }} className="title pb-4">
             {title}
           </h2>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

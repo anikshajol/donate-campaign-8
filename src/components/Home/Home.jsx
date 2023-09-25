@@ -15,7 +15,7 @@ const Home = () => {
     <div className="">
       <Banner></Banner>
 
-      <div className=" mt-24 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-3  lg:gap-6">
+      <div className=" my-24 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-3  lg:gap-6">
         {donationData.map((data, idx) => (
           <DonationDataCard key={idx} data={data}></DonationDataCard>
         ))}
