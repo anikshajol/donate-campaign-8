@@ -1,11 +1,18 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import "./DonationDetails.css";
+import { ToastContainer, toast } from "react-toastify";
+
+import "react-toastify/dist/ReactToastify.css";
 
 const DonationDetails = () => {
   const donationDetails = useLoaderData();
   const { id } = useParams();
 
   const donation = donationDetails.find((donate) => donate.id === parseInt(id));
+
+  const handleDonateAdd = () => {
+    toast("Congratulation! Your donation has been successfully received ");
+  };
 
   return (
     <div className="mt-20">
@@ -19,6 +26,7 @@ const DonationDetails = () => {
           <div className="w-5/6 mx-auto relative -top-32 bg-[#0b0b0b80] h-32">
             <div className=" pt-10 pl-9 items-center">
               <button
+                onClick={handleDonateAdd}
                 className="rounded px-2 py-1 btn-text"
                 style={{
                   color: "white",
@@ -27,6 +35,7 @@ const DonationDetails = () => {
               >
                 Donate {donation.price}
               </button>
+              <ToastContainer />
             </div>
           </div>
 
