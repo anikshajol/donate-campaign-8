@@ -1,0 +1,14 @@
+nav ul a.active {
+  color: #ff444a;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+nav ul a {
+  color: #0b0b0b;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
