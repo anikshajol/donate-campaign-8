@@ -38,7 +38,7 @@ const Banner = ({ searchQuery, handleSearch }) => {
             value={searchQuery}
             onChange={handleSearch}
           />
-          <GoSearch className="text-3xl opacity-50 mr-9"></GoSearch>
+          <GoSearch className="text-3xl mr-5 text-red-300"></GoSearch>
         </div>
       </div>
     </div>
