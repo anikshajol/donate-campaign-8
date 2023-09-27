@@ -1,6 +1,7 @@
 import bannerImage from "../../assets/banner.png";
 import "./Banner.css";
 import PropsTypes from "prop-types";
+import { GoSearch } from "react-icons/go";
 
 const Banner = ({ searchTerm, handleSearch }) => {
   const styles = {
@@ -29,7 +30,7 @@ const Banner = ({ searchTerm, handleSearch }) => {
         <h2 className="banner-title">I Grow By Helping People In Need</h2>
         <div
           onSubmit={handleSearch}
-          className=" w-80 md:w-96 rounded-lg border border-[#dedede] mt-10 flex justify-between items-center outline-none"
+          className=" w-80 md:w-96 rounded-lg border border-[#dedede8b]  mt-10 flex justify-between items-center outline-none"
         >
           <input
             type="search"
@@ -40,7 +41,7 @@ const Banner = ({ searchTerm, handleSearch }) => {
             value={searchTerm}
             onChange={handleSearch}
           />
-          <input className="search-btn " type="btn" value="Search" />
+          <GoSearch className="text-3xl opacity-50 mr-9"></GoSearch>
         </div>
       </div>
     </div>

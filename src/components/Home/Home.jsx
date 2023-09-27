@@ -37,7 +37,7 @@ const Home = () => {
       </div>
 
       <div className=" my-24 p-5 md:max-w-6xl md:mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-3  lg:gap-6">
-        {searchResults
+        {searchTerm
           ? searchResults.map((data, idx) => (
               <DonationDataCard key={idx} data={data}></DonationDataCard>
             ))
