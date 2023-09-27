@@ -5,7 +5,7 @@ import DonationDataCard from "../DonationDataCard/DonationDataCard";
 const Home = () => {
   const [donationData, setDonationData] = useState([]);
   const [searchResults, setSearchResults] = useState([]);
-  const [searchTerm, setSearchTerm] = useState("");
+  const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
     fetch("./data.json")
@@ -15,7 +15,7 @@ const Home = () => {
 
   const handleSearch = (e) => {
     const term = e.target.value;
-    setSearchTerm(term);
+    setSearchQuery(term);
 
     // Filter data based on the search term
     const filteredResults = donationData.filter((item) =>
@@ -32,12 +32,12 @@ const Home = () => {
         <Banner
           donationData={donationData}
           handleSearch={handleSearch}
-          searchTerm={searchTerm}
+          searchTerm={searchQuery}
         ></Banner>
       </div>
 
       <div className=" my-24 p-5 md:max-w-6xl md:mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-3  lg:gap-6">
-        {searchTerm
+        {searchQuery
           ? searchResults.map((data, idx) => (
               <DonationDataCard key={idx} data={data}></DonationDataCard>
             ))
